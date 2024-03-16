@@ -1,0 +1,28 @@
+
+.dropdown-select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #ccc;
+    appearance: none; /* Hides default dropdown arrow */
+    background-color: white; /* Custom background color */
+    background-image: url('../../../img/caret-down.png'); /* Custom dropdown arrow */
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    background-size: 8px 7px;
+
+  }
+ 
+ .dropdown-title{
+    font-family: system-ui;
+    padding:  9px 4px 7px 13px
+ } 
+ .selectionDiv{
+    font-family: system-ui;
+    padding: 0px 10px 10px 10px;
+ }
+
+ .dropdown-select option{
+   background-color: rgba(20, 65, 211, 0.363);
+ }

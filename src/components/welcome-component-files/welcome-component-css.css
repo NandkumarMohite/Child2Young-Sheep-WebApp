@@ -1,0 +1,20 @@
+.carding{
+    display: flex; 
+    flex-wrap: wrap;  
+}
+.displayCardComponent{
+    flex-grow: 1;
+    flex-basis: 200;
+    padding: 4px;
+    transition: 0.5s;
+}
+.displayCardComponent:hover{
+    background-color: rgba(20, 65, 211, 0.363);
+}
+.dropdownCardComponent{
+ 
+    /* flex-wrap: wrap;  */
+    flex-grow: 1;
+    flex-basis: 200;
+    padding: 4px
+}

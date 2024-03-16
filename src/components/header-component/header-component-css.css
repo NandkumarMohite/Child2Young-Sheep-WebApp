@@ -1,0 +1,46 @@
+body{
+    font-family: system-ui;
+}
+.header {
+    background-color: #050570;
+}
+.rowHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.symbol img{
+    mix-blend-mode: multiply;
+    width: 72px;
+}
+.symbol{
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.symbol p{
+    color:rgb(255, 255, 255);
+    margin-left: 9px;
+    text-align: center;
+    font-weight: bold;
+    font-family: system-ui;
+}
+.menueData li{
+    display: flex;
+    gap: 8px;
+    padding-right: 5px;
+    font-family: system-ui;
+    color: white;
+}
+a{
+    border: none;
+    padding: 6px 25px 6px 25px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.8s;
+}
+a:hover{
+    border: 1px solid white;
+}
