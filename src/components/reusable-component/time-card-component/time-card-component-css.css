@@ -1,0 +1,29 @@
+
+
+.displayTimecard{
+   display: flex;
+   justify-content: space-evenly;
+   align-content: center;
+   align-items: center
+}
+
+
+label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ 
+/* Style the date picker */
+input[type="date"] {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   padding: 4px 11px 2px 31px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: small;
+   margin-bottom: 14px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+   display : none
+}
